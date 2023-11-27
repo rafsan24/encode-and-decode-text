@@ -26,11 +26,6 @@ int main(int argc, char **argv)
     
     	while (nextChar != EOF)
     	{
-    		/* TODO:
-			Using the key, write an encoded character to standard out
-			For example, if you encode nextChar and save it in variable enCoded,
-			You can use: putchar(enCoded);
-		*/
         	if (isalpha(nextChar)) 
         	{
             		int offset = (isupper(nextChar) ? 'A' : 'a');
